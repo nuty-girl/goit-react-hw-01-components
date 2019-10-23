@@ -26,7 +26,7 @@ const Stats = ({ title, stats }) => (
 );
 
 Stats.defaultProps = {
-  title: null,
+  title: '',
 };
 
 Stats.propTypes = {
